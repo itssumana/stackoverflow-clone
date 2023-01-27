@@ -1,8 +1,8 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: 'https://stackoverflow-clone-sumana.onrender.com'}) //base url after rendering backend on render.com
+// const API = axios.create({ baseURL: 'https://stackoverflow-clone-sumana.onrender.com'}) //base url after rendering backend on render.com
 
-// const API = axios.create({ baseURL: 'http://localhost:5000'}) //we use the ip of the backend so its 5000 not 3000
+const API = axios.create({ baseURL: 'http://localhost:5000'}) //we use the ip of the backend so its 5000 not 3000
 
 // we are using axios API to talk to the backend. To make every req more secure, to see that all the req has been sent by valid user with valid token, we use the following code... to iuse interceptors
 API.interceptors.request.use( req => {
@@ -30,4 +30,4 @@ export const deleteAnswer = (id, answerId, noOfAnswers) => API.patch(`/answer/de
 
 export const voteQuestion = (id, userId, voteType) => API.patch(`/questions/vote/${id}`, {userId, voteType})
 
-export const stripeSubscription = (priceValue) => API.post('/subscription/create-checkout-session',priceValue)
+// export const stripeSubscription = (priceValue) => API.post('/subscription/create-checkout-session',priceValue)

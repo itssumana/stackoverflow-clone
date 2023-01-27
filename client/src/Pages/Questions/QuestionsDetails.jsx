@@ -47,7 +47,7 @@ const QuestionsDetails = () => {
 	}
 
 	const handleShare = () => {
-		const url = 'https://stackoverflow-clone-app-sumana.netlify.app'
+		const url = 'http://localhost:3000'
 		console.log('share url '+url+location.pathname);
 		copy(url+location.pathname)
 		alert(`Copied url: ${url+location.pathname}`);
