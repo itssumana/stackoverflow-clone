@@ -1,0 +1,96 @@
+.ask-question{
+    min-height: 100vh;
+    background-color: #f8f9f9;
+    margin-top: 53px;
+    padding-bottom: 100px;
+}
+
+.ask-ques-container{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.ask-ques-container h1{
+    padding: 50px 0px 20px;
+    font-size: 27px;
+    font-weight: 600;
+    
+}
+
+.question-writing-guide{
+    background-color: #ebf4fb;
+    border: solid 1.5px #a6ceed;
+    border-radius: 3px;
+    padding: 24px;
+    color: #3b4045;
+    margin-bottom: 16px;
+    
+}
+
+.question-writing-guide h2{
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0px 0px 8px;
+}
+
+.question-writing-guide p{
+    margin: 0%;
+}
+
+.question-writing-guide h5{
+    margin: 15px 0px 8px;
+    font-size: 15px;
+}
+
+.question-writing-guide ul{
+    font-size: 13px;
+}
+
+.ask-ques-container form .ask-form-container{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: solid 1px #e3e6e8;
+    border-radius: 4px;
+}
+
+.ask-form-container label h4{
+    margin-bottom: 0%;
+    font-weight: 600;
+}
+
+.ask-form-container label p{
+    margin: 0%;
+    font-size: 13px;
+    padding: 6px 0px;
+    color: #3b404b;
+}
+
+.ask-form-container label input,
+.ask-form-container label textarea{
+    padding: 10px;
+    border: solid 1px #0000003e;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    resize: vertical;
+    width: calc(100% - 20px);
+    outline: none;
+}
+.ask-form-container label input:focus,
+.ask-form-container label textarea:focus{
+    box-shadow: 0 0 0 4px #daebf8;
+    border: 1px solid #9ecdf1;
+}
+.review-btn{
+    margin: 20px 0px 0px;
+    padding: 10px;
+    background-color: #009dff;
+    border: solid 1px #009dff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.review-btn:hover{
+    background-color: #0086d8;
+}

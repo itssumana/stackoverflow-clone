@@ -1,0 +1,60 @@
+.home-container-2 h2{
+    margin-top: 34px;
+    padding: 10px;
+    border-bottom: solid 1px rgb(170, 173, 176);
+}
+
+.display-plan-icon{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+.subscription-icon{
+    height: 120px;
+    width: 120px;
+    /* padding: 20px; */
+}
+
+table { 
+    border-collapse: collapse; 
+    width: 95%;
+    margin-top: 50px;
+}
+.table-row{
+    border-bottom: solid 1px rgb(154, 156, 159);
+    min-height: 60px;
+}
+
+td{
+    padding: 15px;
+    width: calc(100%/4);
+    text-align: center;
+}
+
+.select-btn{
+    color: white;
+    background-color: black;
+    border: solid 1px #fa8525;
+    border-radius: 4px;
+    padding: 5px;
+    width: 60%;
+}
+
+.checkout-btn{
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    background-color: #fa8525;
+    border: solid 1px #fa8525;
+    border-radius: 4px;
+    padding: 10px;
+    width: 500px;
+    margin-left: calc(100% - 500px);
+    margin-top: 30px;
+    transition: 0.1s;
+}
+
+.checkout-btn:hover{
+    background-color: #fb7203;
+}
